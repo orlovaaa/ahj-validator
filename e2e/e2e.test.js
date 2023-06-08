@@ -1,7 +1,7 @@
 import puppetteer from 'puppeteer';
 import { fork } from 'child_process';
 
-//jest.setTimeout(60000); // default puppeteer timeout
+jest.setTimeout(30000); // default puppeteer timeout
 //jest.useFakeTimers('legacy');
 //jest.useRealTimers();
 
