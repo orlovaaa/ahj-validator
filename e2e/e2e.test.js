@@ -45,7 +45,7 @@ describe('Credit Card Validator form', () => {
     await input.type('4916838661195196');
     await button.click();
 
-    await page.waitForSelector('.valid"');
+    await page.waitForSelector('.form-card__control .valid"');
   });
 
   test('Should invalid card number', async () => {
