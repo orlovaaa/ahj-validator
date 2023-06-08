@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.author {
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+}
+
+.author a {
+  color: #fff;
+}
+
+.content {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.content__title,
+.card-list__title,
+.content__item {
+  font-family: sans-serif;
+  font-size: 15px;  
+}
+
+.content__list {
+  list-style: none;
+  background-color: #e9e8e8;
+  padding: 10px;
+
+}
+
+.form-card {
+  width: 100%;
+}
+
+.form-card__control {
+  border: 1px solid #929292;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.form-card__control:hover {
+  border: 1px solid #000000
+}
+
+.form-card__input {
+  width: 100%;
+  border: 0;
+}
+
+input {outline:none;}
+
+
+.form-card__btn {
+  width: 100%;
+  background-color: #51c76c;
+  padding: 5px;
+  border-radius: 2px;
+  color: #e9e8e8;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+}
+
+.form-card__btn:hover {
+  background-color: #44a35b;
+}
+
+.card-list {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.card-list__title {
+  margin: 0 20px 0 0;
+}
+
+.card-item {
+  width: 50px;
+  border: 1px solid #bcbcbc;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.visa {
+  opacity: 1;
+}
+
+.mastercard {
+  opacity: 1;
+}
+
+.mir {
+  opacity: 1;
+}
